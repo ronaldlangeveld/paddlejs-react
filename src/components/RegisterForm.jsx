@@ -16,7 +16,7 @@ function RegisterForm() {
         e.preventDefault();
         if(Email.length > 0){
             Paddle.Checkout.open({
-                product: 567487,
+                product: '', // your product code here
                 email: Email,
                 successCallback: (data, err) =>{
                     console.log(data);
